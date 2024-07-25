@@ -70,3 +70,6 @@ const remove = async (url) => {
     console.log(err)
   }
 }
+
+
+module.exports = { retrieve, send, alter, remove }

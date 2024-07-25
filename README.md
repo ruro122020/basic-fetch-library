@@ -1,12 +1,13 @@
 # Frontend CRUD Fetch Library
 
-This repo is a library of CRUD method to use for the frontend react apps when communicating with my flask api projects.
+This repo is a library of CRUD method to use with vite+react apps when communicating with the flask-postgresql-template found [here](https://github.com/ruro122020/flask-postgresql-template-local).
 
-It has 4 methods: 
-
-1. retrieve
-2. send
-3. alter
-4. remove
+*url: The endpoint (Example: '/api/{endpoint})
+*body: The object with data being sent to the api
+### Methods
+1. retrieve(url)
+2. send(url, body)
+3. alter(url, body)
+4. remove(url)
 
 
