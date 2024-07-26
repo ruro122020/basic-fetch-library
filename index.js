@@ -1,4 +1,4 @@
-const retrieve = async (url) => {
+export const retrieve = async (url) => {
   try {
     const res = await fetch(url)
     const data = await res.json()
@@ -14,7 +14,7 @@ const retrieve = async (url) => {
   }
 }
 
-const send = async (url, body) => {
+export const send = async (url, body) => {
   try {
     const res = await fetch(url, {
       method: 'POST',
@@ -34,7 +34,7 @@ const send = async (url, body) => {
     console.log(err)
   }
 }
-const alter = async (url, body) => {
+export const alter = async (url, body) => {
   try {
     const res = await fetch(url, {
       method: 'PATCH',
@@ -55,7 +55,7 @@ const alter = async (url, body) => {
     console.log(error)
   }
 }
-const remove = async (url) => {
+export const remove = async (url) => {
   try {
     const res = await fetch(url, { method: 'DELETE' })
     const data = await res.json()
@@ -72,4 +72,3 @@ const remove = async (url) => {
 }
 
 
-module.exports = { retrieve, send, alter, remove }
