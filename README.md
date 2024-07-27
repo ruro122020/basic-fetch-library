@@ -14,4 +14,9 @@ These async functions use the Fetch API. In the send and alter methods the body 
 3. alter(url, body)
 4. remove(url)
 
+To import any of these methods, use the following syntax:
 
+```
+import { retrieve } from 'basic-fetch-library'
+
+```
