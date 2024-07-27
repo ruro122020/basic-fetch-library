@@ -1,7 +1,7 @@
 {
   "name": "basic-fetch-library",
-  "version": "1.0.1",
-  "description": "This is a library with CRUD asyn function to use with vite+react apps when communicating with the flask-postgresql-template found [here](https://github.com/ruro122020/flask-postgresql-template-local).",
+  "version": "1.0.2",
+  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {

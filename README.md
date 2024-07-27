@@ -8,15 +8,16 @@ These async functions use the Fetch API. In the send and alter methods the body 
 
 *body: Is an object that should only contain the data you want to post or update and nothing else. 
 
-### Methods
-1. retrieve(url)
-2. send(url, body)
-3. alter(url, body)
-4. remove(url)
-
 To import any of these methods, use the following syntax:
 
 ```
 import { retrieve } from 'basic-fetch-library'
 
 ```
+
+### Methods
+1. retrieve(url)
+2. send(url, body)
+3. alter(url, body)
+4. remove(url)
+
