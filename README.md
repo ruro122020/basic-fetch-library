@@ -23,8 +23,8 @@ import { retrieve } from 'basic-fetch-library'
 3. alter(url, body)
 4. remove(url)
 
-### ERROR HANDLING
-When return an error message from the flask api template, return a dict with code error. Example:
+### Error Handling
+Return a dict with "error" property and whatever error code you want to use. Example:
 
 ```
 {"error":"Not found"}, 400
