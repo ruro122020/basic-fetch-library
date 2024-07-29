@@ -15,7 +15,6 @@ To import any of these methods, use the following syntax:
 
 ```
 import { retrieve } from 'basic-fetch-library'
-
 ```
 
 *URL: Is the URL that your API is using
@@ -33,7 +32,6 @@ Return a dict with "error" property and whatever error code you want to use. Exa
 
 ```
 {"error":"Not found"}, 400
-
 ```
 
 The methods are setup to access the "error" property when an error occurs in the request. 
