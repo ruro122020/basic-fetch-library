@@ -18,9 +18,8 @@ import { retrieve } from 'basic-fetch-library'
 ```
 
 
-### Methods
-*URL: Is the URL that your API is using
-
+### Async Functions
+*URL: Is the URL that your API is using/
 *body: Is an object that should only contain the data you want to post or update and nothing else. 
 
 1. retrieve(url)
