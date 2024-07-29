@@ -28,10 +28,10 @@ import { retrieve } from 'basic-fetch-library'
 4. remove(url)
 
 ### Error Handling
-Return a dict with "error" property and whatever error code you want to use. Example:
+Return a dict with an "error" property and whatever error code you want to use. Example:
 
 ```
 {"error":"Not found"}, 400
 ```
 
-The methods are setup to access the "error" property when an error occurs in the request. 
+The functions are setup to access the "error" property when an error occurs in the request. 
