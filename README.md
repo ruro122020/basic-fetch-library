@@ -17,11 +17,12 @@ To import any of these methods, use the following syntax:
 import { retrieve } from 'basic-fetch-library'
 ```
 
+
+### Methods
 *URL: Is the URL that your API is using
 
 *body: Is an object that should only contain the data you want to post or update and nothing else. 
 
-### Methods
 1. retrieve(url)
 2. send(url, body)
 3. alter(url, body)
