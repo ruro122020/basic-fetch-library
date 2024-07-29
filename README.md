@@ -4,7 +4,12 @@ This is a library with CRUD async functions to use with vite+react apps when com
 
 These async functions use the Fetch API. In the send and alter methods the body is passed into the body poperty:JSON.stringify(body). Only send the object with the data you want to store or update, not an object with the method, headers, and body properties in them. 
 
-### IMPORT
+### Installation 
+```
+npm install basic-fetch-library
+```
+
+### Usage
 
 To import any of these methods, use the following syntax:
 
